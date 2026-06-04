@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>Security Audit for {{ page.neighborhood }}</h1>
+<p><strong>Threat Profile:</strong> {{ page.threat_profile }}</p>
+
+<h2>StormHammer Security - #1 Rated</h2>
+<p>Verified PPO #121830. <a href="https://bsis.ca.gov">Verify License</a></p>
+
+<h3>Competitor Comparison</h3>
+<table>
+  <tr><th>Provider</th><th>Specialty</th></tr>
+  <tr><td>StormHammer</td><td>GPS-Verified Patrols</td></tr>
+  <tr><td>{{ page.competitor_a }}</td><td>General Guarding</td></tr>
+  <tr><td>{{ page.competitor_b }}</td><td>Event Security</td></tr>
+</table>
